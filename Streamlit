@@ -18,6 +18,7 @@ def read_csv():
         st.session_state.question_bank = [list(d.values()) for d in st.session_state.question_bank_dict]
     #st.write(st.session_state.question_bank)
 
+
 def name_to_topic():
     st.session_state.show_topic_choice = True
     st.session_state.show_enter_name = False
