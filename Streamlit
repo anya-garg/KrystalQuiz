@@ -158,3 +158,6 @@ if st.session_state.show_end_quiz == True:
 if st.session_state.show_enter_name == True:
     st.session_state.name = st.text_input("Please enter your name")
     st.button("Next", on_click=name_to_topic)
+
+snow streamlit get-url my_streamlit_app
+
